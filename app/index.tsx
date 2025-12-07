@@ -5,11 +5,15 @@ export default function Index() {
   return (
     <View style={styles.container} >
       ...
-
-      <Link href="/test-components" style={styles.link}>
+      
+       <Link href="/test-components" style={styles.link}>
         <Text style={styles.linkText}>Test Components</Text>
       </Link>
 
+       <Link href="/page2" style={styles.link}>
+          <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
+        </Link>
+      
       <Link href="/travel" style={styles.link}>
         <Text style={styles.linkText}>Travel</Text>
       </Link>
@@ -17,6 +21,11 @@ export default function Index() {
       <Link href="/resort" style={styles.link}>
         <Text style={styles.linkText}>Resort</Text>
       </Link>
+
+
+       <Link href="/health" style={styles.link}>
+          <Text style={styles.linkText}>Health</Text>
+        </Link>
 
     </View>
   );
