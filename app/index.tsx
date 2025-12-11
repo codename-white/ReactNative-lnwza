@@ -23,8 +23,12 @@ export default function Index() {
       </Link>
 
 
-       <Link href="/health" style={styles.link}>
+      <Link href="/health" style={styles.link}>
           <Text style={styles.linkText}>Health</Text>
+      </Link>
+
+       <Link href="/review" style={styles.link}>
+          <Text style={styles.linkText}>Reviwe</Text>
         </Link>
 
     </View>

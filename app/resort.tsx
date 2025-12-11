@@ -12,8 +12,7 @@ import { ScrollView,  Text,  View } from 'react-native';
 export default function Resort() {
     return (
         <ScrollView>
-            <View style={{ flex: 1, paddingTop: 20 }}>
-                 {/*   <Text>Text of Week 3 </Text> */}
+            <View style={{ flex: 1, paddingTop: 20 }}>  
                     <Section1 />
                     <Section2 />
                     <Section3 />
@@ -22,6 +21,7 @@ export default function Resort() {
                     <Section6 />
                     <Section7 />
                     <Section8 />
+                    
             </View>
         </ScrollView>
     );
