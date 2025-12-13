@@ -30,6 +30,10 @@ export default function Index() {
        <Link href="/review" style={styles.link}>
           <Text style={styles.linkText}>Reviwe</Text>
         </Link>
+      
+      <Link href="/home" style={styles.link}>
+          <Text style={styles.linkText}>Home</Text>
+        </Link>
 
     </View>
   );
