@@ -1,0 +1,514 @@
+[
+  {
+    "id": 1,
+    "created_at": "2024-01-25T03:50:43.000000Z",
+    "updated_at": "2024-01-25T03:50:43.000000Z",
+    "user_id": "Test-1",
+    "latitude": "14.1335795",
+    "longitude": "100.6166808"
+  },
+  {
+    "id": 2,
+    "created_at": "2024-01-25T08:52:16.000000Z",
+    "updated_at": "2026-01-24T06:32:11.000000Z",
+    "user_id": "Chavalit Koweerawong",
+    "latitude": "14.132542610657",
+    "longitude": "100.61657173114"
+  },
+  {
+    "id": 3,
+    "created_at": "2024-01-25T08:52:49.000000Z",
+    "updated_at": "2024-02-01T06:54:15.000000Z",
+    "user_id": "Ratchapol Yodkaew",
+    "latitude": "14.132295971536",
+    "longitude": "100.61643334631"
+  },
+  {
+    "id": 4,
+    "created_at": "2024-01-25T08:53:01.000000Z",
+    "updated_at": "2024-09-19T08:56:05.000000Z",
+    "user_id": "Bovon vorayos",
+    "latitude": "14.1323303",
+    "longitude": "100.6164671"
+  },
+  {
+    "id": 5,
+    "created_at": "2024-01-25T08:53:08.000000Z",
+    "updated_at": "2024-02-22T09:34:13.000000Z",
+    "user_id": "arthit rattanakul",
+    "latitude": "14.140126607142",
+    "longitude": "100.61799164241"
+  },
+  {
+    "id": 6,
+    "created_at": "2024-01-25T08:53:22.000000Z",
+    "updated_at": "2024-02-08T07:50:34.000000Z",
+    "user_id": "Saowalak  singpho",
+    "latitude": "14.1323102",
+    "longitude": "100.6164154"
+  },
+  {
+    "id": 7,
+    "created_at": "2024-01-25T08:56:20.000000Z",
+    "updated_at": "2024-01-25T09:02:33.000000Z",
+    "user_id": "Thawatchai",
+    "latitude": "14.131073125995",
+    "longitude": "100.61580244429"
+  },
+  {
+    "id": 8,
+    "created_at": "2024-01-25T08:56:57.000000Z",
+    "updated_at": "2024-02-01T08:18:30.000000Z",
+    "user_id": "Sithicha Banthuktham",
+    "latitude": "14.1323059",
+    "longitude": "100.6164132"
+  },
+  {
+    "id": 9,
+    "created_at": "2024-01-25T09:04:03.000000Z",
+    "updated_at": "2024-02-29T07:42:27.000000Z",
+    "user_id": "Nattapon Pairote",
+    "latitude": "14.1323049",
+    "longitude": "100.6164128"
+  },
+  {
+    "id": 10,
+    "created_at": "2024-01-25T09:20:20.000000Z",
+    "updated_at": "2024-02-15T09:07:46.000000Z",
+    "user_id": "Thawatcha",
+    "latitude": "14.1323117",
+    "longitude": "100.6164121"
+  },
+  {
+    "id": 11,
+    "created_at": "2024-01-25T09:20:20.000000Z",
+    "updated_at": "2024-01-25T09:20:20.000000Z",
+    "user_id": "Thawatcha",
+    "latitude": "13.991755114135",
+    "longitude": "100.61108788537"
+  },
+  {
+    "id": 12,
+    "created_at": "2024-02-22T09:29:50.000000Z",
+    "updated_at": "2024-09-12T01:57:43.000000Z",
+    "user_id": "Wuttiporn Karakes",
+    "latitude": "14.1882294",
+    "longitude": "100.6127972"
+  },
+  {
+    "id": 13,
+    "created_at": "2024-02-22T09:32:11.000000Z",
+    "updated_at": "2024-07-04T06:50:42.000000Z",
+    "user_id": "Phaninthorn Nongtakrai",
+    "latitude": "14.1882117",
+    "longitude": "100.6128187"
+  },
+  {
+    "id": 14,
+    "created_at": "2024-04-03T04:01:18.000000Z",
+    "updated_at": "2024-04-03T04:17:59.000000Z",
+    "user_id": "Pichamol",
+    "latitude": "14.0706118",
+    "longitude": "100.6050643"
+  },
+  {
+    "id": 15,
+    "created_at": "2024-04-03T04:03:54.000000Z",
+    "updated_at": "2024-04-03T04:28:50.000000Z",
+    "user_id": "Suphisara Limsuthakul",
+    "latitude": "14.070643707366",
+    "longitude": "100.60574139179"
+  },
+  {
+    "id": 16,
+    "created_at": "2024-04-03T04:03:54.000000Z",
+    "updated_at": "2024-04-03T04:11:22.000000Z",
+    "user_id": "Chokaew Phonhan",
+    "latitude": "13.988643885533",
+    "longitude": "100.61747345094"
+  },
+  {
+    "id": 17,
+    "created_at": "2024-04-03T04:03:58.000000Z",
+    "updated_at": "2024-04-03T04:14:43.000000Z",
+    "user_id": "Saaicha Phuttiluecha",
+    "latitude": "14.07373299316",
+    "longitude": "100.60289481835"
+  },
+  {
+    "id": 18,
+    "created_at": "2024-04-03T04:04:00.000000Z",
+    "updated_at": "2024-04-03T04:13:01.000000Z",
+    "user_id": "Wichayaporn Thanasitthichok",
+    "latitude": "14.070601226458",
+    "longitude": "100.60577104195"
+  },
+  {
+    "id": 19,
+    "created_at": "2024-04-03T04:04:13.000000Z",
+    "updated_at": "2024-04-03T04:14:59.000000Z",
+    "user_id": "Thanchanok",
+    "latitude": "14.071026399198",
+    "longitude": "100.61167584251"
+  },
+  {
+    "id": 20,
+    "created_at": "2024-04-03T04:04:36.000000Z",
+    "updated_at": "2024-04-03T05:59:27.000000Z",
+    "user_id": "Kritchaya Hiranno",
+    "latitude": "13.66033",
+    "longitude": "100.4574967"
+  },
+  {
+    "id": 21,
+    "created_at": "2024-04-03T04:04:56.000000Z",
+    "updated_at": "2024-04-03T04:11:17.000000Z",
+    "user_id": "Kamonchanok Butaka",
+    "latitude": "14.070791617814",
+    "longitude": "100.60527711384"
+  },
+  {
+    "id": 22,
+    "created_at": "2024-04-03T04:05:00.000000Z",
+    "updated_at": "2024-04-03T07:52:05.000000Z",
+    "user_id": "Prompiriya Mungngam",
+    "latitude": "14.070883088731",
+    "longitude": "100.6051921816"
+  },
+  {
+    "id": 23,
+    "created_at": "2024-04-03T04:05:46.000000Z",
+    "updated_at": "2024-05-17T20:02:30.000000Z",
+    "user_id": "Michael Jordan",
+    "latitude": "14.069787975759",
+    "longitude": "100.60470156584"
+  },
+  {
+    "id": 24,
+    "created_at": "2024-04-03T04:05:51.000000Z",
+    "updated_at": "2024-04-03T06:34:40.000000Z",
+    "user_id": "Kulisara Ittisirikulchai",
+    "latitude": "14.070778073957",
+    "longitude": "100.60494221182"
+  },
+  {
+    "id": 25,
+    "created_at": "2024-04-03T04:06:30.000000Z",
+    "updated_at": "2024-04-03T04:08:18.000000Z",
+    "user_id": "Wasan Arumsakul",
+    "latitude": "14.072815358641",
+    "longitude": "100.60209248391"
+  },
+  {
+    "id": 26,
+    "created_at": "2024-04-03T04:06:37.000000Z",
+    "updated_at": "2024-04-03T04:18:03.000000Z",
+    "user_id": "Prapassorn Passadon",
+    "latitude": "14.070992051367",
+    "longitude": "100.60492255239"
+  },
+  {
+    "id": 27,
+    "created_at": "2024-04-03T04:08:15.000000Z",
+    "updated_at": "2024-04-03T04:13:54.000000Z",
+    "user_id": "Pattarawadee Chuenarrom",
+    "latitude": "14.070477698189",
+    "longitude": "100.60562178511"
+  },
+  {
+    "id": 28,
+    "created_at": "2024-04-03T04:08:18.000000Z",
+    "updated_at": "2024-04-03T04:32:05.000000Z",
+    "user_id": "Pemika Junkheav",
+    "latitude": "14.074703291446",
+    "longitude": "100.60366186863"
+  },
+  {
+    "id": 29,
+    "created_at": "2024-04-03T04:12:14.000000Z",
+    "updated_at": "2024-04-03T04:57:50.000000Z",
+    "user_id": "Waranit Techarapheephat",
+    "latitude": "14.070796278373",
+    "longitude": "100.60496477795"
+  },
+  {
+    "id": 30,
+    "created_at": "2024-04-03T04:14:31.000000Z",
+    "updated_at": "2024-04-03T04:24:31.000000Z",
+    "user_id": "Praewa Prasatthai",
+    "latitude": "14.070643809389",
+    "longitude": "100.60578333363"
+  },
+  {
+    "id": 31,
+    "created_at": "2024-04-03T04:15:14.000000Z",
+    "updated_at": "2024-04-03T05:13:16.000000Z",
+    "user_id": "Pimlada Ngampradablert",
+    "latitude": "14.073423372046",
+    "longitude": "100.60298441279"
+  },
+  {
+    "id": 32,
+    "created_at": "2024-04-03T04:17:52.000000Z",
+    "updated_at": "2024-04-03T04:38:19.000000Z",
+    "user_id": "Nuttee Pimpason",
+    "latitude": "14.070983925448",
+    "longitude": "100.61163140008"
+  },
+  {
+    "id": 33,
+    "created_at": "2024-04-03T04:26:06.000000Z",
+    "updated_at": "2024-04-11T10:31:31.000000Z",
+    "user_id": "itthichet thitijaroonroj",
+    "latitude": "14.074561998",
+    "longitude": "100.60326607418"
+  },
+  {
+    "id": 34,
+    "created_at": "2024-04-03T04:40:58.000000Z",
+    "updated_at": "2024-04-03T04:43:55.000000Z",
+    "user_id": "Ornthipa Rattanaekkawin",
+    "latitude": "14.070622413471",
+    "longitude": "100.60566907645"
+  },
+  {
+    "id": 35,
+    "created_at": "2024-04-03T04:44:54.000000Z",
+    "updated_at": "2024-04-03T06:34:18.000000Z",
+    "user_id": "Panicha Taechasettakul",
+    "latitude": "14.070788292505",
+    "longitude": "100.60495805925"
+  },
+  {
+    "id": 36,
+    "created_at": "2024-04-03T06:03:10.000000Z",
+    "updated_at": "2024-04-03T06:03:19.000000Z",
+    "user_id": "Prach Trisiricharoen",
+    "latitude": "14.070696004217",
+    "longitude": "100.60557330277"
+  },
+  {
+    "id": 37,
+    "created_at": "2024-04-24T03:41:55.000000Z",
+    "updated_at": "2024-04-24T03:46:07.000000Z",
+    "user_id": "Kodchaporn Sittiphaisal",
+    "latitude": "14.070773008589",
+    "longitude": "100.60493823841"
+  },
+  {
+    "id": 38,
+    "created_at": "2024-04-24T06:32:54.000000Z",
+    "updated_at": "2024-04-24T06:33:00.000000Z",
+    "user_id": "Pimpakarn",
+    "latitude": "14.070664310999",
+    "longitude": "100.60496575735"
+  },
+  {
+    "id": 39,
+    "created_at": "2024-04-24T07:59:16.000000Z",
+    "updated_at": "2024-05-18T11:46:43.000000Z",
+    "user_id": "Me",
+    "latitude": "14.070676132075",
+    "longitude": "100.60495171414"
+  },
+  {
+    "id": 40,
+    "created_at": "2024-05-26T04:20:05.000000Z",
+    "updated_at": "2024-05-26T04:38:49.000000Z",
+    "user_id": "Phutiphachr Deeprom",
+    "latitude": "14.134749434768",
+    "longitude": "100.61692547005"
+  },
+  {
+    "id": 41,
+    "created_at": "2024-05-26T04:21:15.000000Z",
+    "updated_at": "2024-05-26T04:32:25.000000Z",
+    "user_id": "Woranittha Thongthaeng",
+    "latitude": "14.133687778008",
+    "longitude": "100.61638590499"
+  },
+  {
+    "id": 42,
+    "created_at": "2024-05-26T04:21:15.000000Z",
+    "updated_at": "2024-05-26T04:21:15.000000Z",
+    "user_id": "Woranittha Thongthaeng",
+    "latitude": "14.13363383253",
+    "longitude": "100.61636502598"
+  },
+  {
+    "id": 43,
+    "created_at": "2024-05-26T04:44:51.000000Z",
+    "updated_at": "2024-06-09T06:30:13.000000Z",
+    "user_id": "Sompong Deechimplee",
+    "latitude": "14.133610553939",
+    "longitude": "100.61682851935"
+  },
+  {
+    "id": 44,
+    "created_at": "2024-05-26T04:44:51.000000Z",
+    "updated_at": "2024-05-26T04:44:51.000000Z",
+    "user_id": "Sompong Deechimplee",
+    "latitude": "14.13357489156",
+    "longitude": "100.61681646905"
+  },
+  {
+    "id": 45,
+    "created_at": "2024-05-26T04:44:51.000000Z",
+    "updated_at": "2024-05-26T04:44:51.000000Z",
+    "user_id": "Sompong Deechimplee",
+    "latitude": "14.13357489156",
+    "longitude": "100.61681646905"
+  },
+  {
+    "id": 46,
+    "created_at": "2024-06-08T17:38:31.000000Z",
+    "updated_at": "2024-06-09T05:50:44.000000Z",
+    "user_id": "Phatcharin Singkampuds",
+    "latitude": "14.133430183273",
+    "longitude": "100.616879321"
+  },
+  {
+    "id": 47,
+    "created_at": "2024-06-09T05:52:33.000000Z",
+    "updated_at": "2024-06-09T06:35:01.000000Z",
+    "user_id": "Phatcharin Singkampud",
+    "latitude": "14.133506163606",
+    "longitude": "100.61687110025"
+  },
+  {
+    "id": 48,
+    "created_at": "2024-09-12T07:40:25.000000Z",
+    "updated_at": "2024-09-12T08:10:24.000000Z",
+    "user_id": "Chokprapat pomgsuwan",
+    "latitude": "14.1323214",
+    "longitude": "100.6164777"
+  },
+  {
+    "id": 49,
+    "created_at": "2024-09-12T08:08:41.000000Z",
+    "updated_at": "2024-09-12T08:48:04.000000Z",
+    "user_id": "Chawin Songmeechai",
+    "latitude": "14.1323177",
+    "longitude": "100.6164438"
+  },
+  {
+    "id": 50,
+    "created_at": "2024-09-12T08:30:12.000000Z",
+    "updated_at": "2024-09-12T08:30:36.000000Z",
+    "user_id": "Tharit pleanmeesi",
+    "latitude": "14.133304143212",
+    "longitude": "100.61688682107"
+  },
+  {
+    "id": 51,
+    "created_at": "2024-09-12T08:31:03.000000Z",
+    "updated_at": "2024-09-12T09:07:32.000000Z",
+    "user_id": "Pichet Mekim",
+    "latitude": "14.132066087022",
+    "longitude": "100.6166851923"
+  },
+  {
+    "id": 52,
+    "created_at": "2024-09-12T08:31:17.000000Z",
+    "updated_at": "2024-09-12T09:04:40.000000Z",
+    "user_id": "Arunchai Phosri",
+    "latitude": "14.133212293849",
+    "longitude": "100.61676522447"
+  },
+  {
+    "id": 53,
+    "created_at": "2024-09-12T08:31:17.000000Z",
+    "updated_at": "2024-09-19T13:00:38.000000Z",
+    "user_id": "Panita Choomkasang",
+    "latitude": "14.111947393535",
+    "longitude": "100.62233417836"
+  },
+  {
+    "id": 54,
+    "created_at": "2024-09-12T08:32:15.000000Z",
+    "updated_at": "2024-09-12T09:09:08.000000Z",
+    "user_id": "Kittisak Sonsing",
+    "latitude": "14.133271141079",
+    "longitude": "100.6167856567"
+  },
+  {
+    "id": 55,
+    "created_at": "2024-09-12T08:32:51.000000Z",
+    "updated_at": "2024-09-12T09:03:18.000000Z",
+    "user_id": "Yanawat Praisompong",
+    "latitude": "14.133246525482",
+    "longitude": "100.61678435192"
+  },
+  {
+    "id": 56,
+    "created_at": "2024-09-12T08:33:35.000000Z",
+    "updated_at": "2024-09-12T08:55:45.000000Z",
+    "user_id": "Chuthaphat Ketthed",
+    "latitude": "14.1323519",
+    "longitude": "100.6164836"
+  },
+  {
+    "id": 57,
+    "created_at": "2024-09-12T08:33:49.000000Z",
+    "updated_at": "2024-09-12T09:09:23.000000Z",
+    "user_id": "Chonlasit Prungsuk",
+    "latitude": "14.132467227734",
+    "longitude": "100.61644904527"
+  },
+  {
+    "id": 58,
+    "created_at": "2024-09-12T08:42:57.000000Z",
+    "updated_at": "2024-09-12T09:13:06.000000Z",
+    "user_id": "Chavalit",
+    "latitude": "14.133020992703",
+    "longitude": "100.61632651841"
+  },
+  {
+    "id": 59,
+    "created_at": "2024-09-12T08:51:56.000000Z",
+    "updated_at": "2024-09-12T09:05:31.000000Z",
+    "user_id": "Aorathai Singjinda",
+    "latitude": "14.132256542675",
+    "longitude": "100.6162934755"
+  },
+  {
+    "id": 60,
+    "created_at": "2024-09-12T09:15:51.000000Z",
+    "updated_at": "2024-09-12T09:16:07.000000Z",
+    "user_id": "Thinnaprop Juntawad",
+    "latitude": "14.133434988133",
+    "longitude": "100.61685657294"
+  },
+  {
+    "id": 61,
+    "created_at": "2024-09-12T15:34:06.000000Z",
+    "updated_at": "2024-09-12T15:36:54.000000Z",
+    "user_id": "Sueachet Kasamsuk",
+    "latitude": "14.1335567",
+    "longitude": "100.6191467"
+  },
+  {
+    "id": 62,
+    "created_at": "2024-09-19T06:47:11.000000Z",
+    "updated_at": "2024-09-19T08:55:28.000000Z",
+    "user_id": "Woradit Sapmaung",
+    "latitude": "14.133675947605",
+    "longitude": "100.61685726109"
+  },
+  {
+    "id": 63,
+    "created_at": "2025-08-27T02:59:17.000000Z",
+    "updated_at": "2025-09-28T02:53:48.000000Z",
+    "user_id": "Worapot taveesin",
+    "latitude": "14.132246982026",
+    "longitude": "100.61634221302"
+  },
+  {
+    "id": 64,
+    "created_at": "2026-01-24T06:32:21.000000Z",
+    "updated_at": "2026-01-24T06:47:25.000000Z",
+    "user_id": "SUPATTRA THONGPROM",
+    "latitude": "14.132527201237",
+    "longitude": "100.61657418535"
+  }
+]
