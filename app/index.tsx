@@ -36,6 +36,12 @@ export default function Index() {
         <Link href="/location" style={styles.link}>
           <Text style={styles.linkText}>Loacation</Text>
         </Link>
+        <Link href="/charmander" style={styles.link}>
+          <Text style={styles.linkText}>pokemon</Text>
+        </Link>
+        <Link href="/ant" style={styles.link}>
+          <Text style={styles.linkText}>heros</Text>
+        </Link>
       </View>
     </ScrollView>
   );
