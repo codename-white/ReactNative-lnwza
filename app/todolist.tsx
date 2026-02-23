@@ -1,87 +1,75 @@
 import TodoItem from "@/components/week9/TodoItem";
-import { getData, storeData } from "@/utils/storage";
+import { addTodo, deleteTodo, getTodos, Todo, updateTodo } from "@/utils/todo-service";
 import { FontAwesome } from "@expo/vector-icons";
 import React, { useEffect, useState } from "react";
-import { FlatList, TouchableOpacity, View } from "react-native";
-// import { useNavigation } from '@react-navigation/native';
+import { ActivityIndicator, FlatList, TouchableOpacity, View } from "react-native";
 
 export default function TodoList() {
-  // const navigation = useNavigation();
-  const [todos, setTodos] = useState<any>([
-    // { id: '1', completed: false, title: "exercise @ 7.00" },
-    // { id: '2', completed: false, title: "meeting @ 9.00" },
-    // { id: '3', completed: false, title: "go to cinema @ 19.00" },
-  ]);
-
-  console.log("TODOS:", todos);
+  const [todos, setTodos] = useState<Todo[]>([]);
+  const [loading, setLoading] = useState(true);
 
   const onLoad = async () => {
-    // READ ITEMS FROM STORAGE
-    let data = await getData("todos");
-
-    // SET STATE - WRITE CODE HERE
-    data = data || [];
-    setTodos(data);
-    
+    try {
+      setLoading(true);
+      const data = await getTodos();
+      setTodos(data);
+    } catch (error) {
+      console.error("Error loading todos:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
     onLoad();
   }, []);
 
-  const onCreate = () => {
-    let new_data = {
-      id: "_" + Math.random().toString(36).substr(2, 9), //RANDOM NUMBER
-      title: "", //Empty String
-      completed: false,
-    };
-    //CLONE ARRAY + APPEND NEW DATA INTO ARRAY
-    let t = [...todos, new_data];
-    //UPDATE STATE
-    setTodos(t);
-
-    // WRITE ITEM TO STORAGE - WRITE CODE HERE
-    storeData("todos", t);
-    
+  const onCreate = async () => {
+    try {
+      const newTodo = await addTodo(""); // สร้างว่างๆ ไว้ก่อนตามโครงสร้างเดิม
+      setTodos([...todos, newTodo]);
+    } catch (error) {
+      console.error("Error creating todo:", error);
+    }
   };
-  const onUpdate = (new_title: string, id: string) => {
-    //CLONE ARRAY FIRST
-    let t = [...todos];
-    //Find index of specific object using findIndex method.
-    let index = t.findIndex((item) => item.id == id);
-    //Update object's name property.
-    console.log("t:", t[index], id);
-    t[index].title = new_title;
-    //UPDATE STATE
-    setTodos(t);
 
-    // WRITE ITEM TO STORAGE - WRITE CODE HERE
-    storeData("todos", t);
-    
+  const onUpdate = async (new_title: string, id: string) => {
+    try {
+      const updated = await updateTodo(id, { title: new_title });
+      setTodos(todos.map(item => item.id === id ? updated : item));
+    } catch (error) {
+      console.error("Error updating todo:", error);
+    }
   };
-  const onCheck = (id: string) => {
-    let t = [...todos];
-    let index = t.findIndex((item) => item.id == id);
-    //SET INVERSE VALUE BOOLEAN
-    t[index].completed = !t[index].completed;
-    setTodos(t);
 
-    // WRITE ITEM TO STORAGE - WRITE CODE HERE
-    storeData("todos", t);
-    
+  const onCheck = async (id: string) => {
+    try {
+      const current = todos.find(item => item.id === id);
+      if (!current) return;
+      const updated = await updateTodo(id, { completed: !current.completed });
+      setTodos(todos.map(item => item.id === id ? updated : item));
+    } catch (error) {
+      console.error("Error checking todo:", error);
+    }
   };
-  const onDelete = (id: string) => {
-    //CLONE ARRAY FIRST
-    let t = [...todos];
-    let index = t.findIndex((item) => item.id == id);
-    let [removed_t] = t.splice(index, 1);
-    console.log(removed_t);
-    setTodos(t);
 
-    // REMOVE AN ITEM FROM STORAGE - WRITE CODE HERE
-    storeData("todos", t);
-
+  const onDelete = async (id: string) => {
+    try {
+      await deleteTodo(id);
+      setTodos(todos.filter(item => item.id !== id));
+    } catch (error) {
+      console.error("Error deleting todo:", error);
+    }
   };
+
+  if (loading) {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ActivityIndicator size="large" color="lightblue" />
+      </View>
+    );
+  }
+
 
   return (
     <View style={{ flex: 1 }}>
